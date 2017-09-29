@@ -1,0 +1,25 @@
+{
+  "name": "byterium.jukebox.track-metadata-service",
+  "version": "0.0.0",
+  "description": "Byterium.Jukebox.TrackMetadataService",
+  "main": "app.js",
+  "private": true,
+  "author": {
+    "name": "joekr"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "ava"
+  },
+  "dependencies": {
+    "bluebird": "^3",
+    "body-parser": "^1",
+    "express": "^4",
+    "mime-types": "^2",
+    "multer": "^1",
+    "musicmetadata": "^2"
+  },
+  "devDependencies": {
+    "ava": "^0"
+  }
+}

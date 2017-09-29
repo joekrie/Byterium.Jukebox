@@ -1,0 +1,12 @@
+﻿version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "8000:80"
+  mongo:
+    image: "mongo"
+  proxy:
+    build: ./reverse-proxy
+    ports:
+     - "8080:80"

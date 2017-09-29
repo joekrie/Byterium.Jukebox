@@ -1,0 +1,26 @@
+{
+  "version": "0.0.0",
+  "name": "byterium.jukebox.webapp",
+  "private": true,
+  "scripts": {
+    "build": "brunch build",
+    "buildwatch": "brunch watch"
+  },
+  "dependencies": {
+    "picnic": "^6.4.0",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-router-dom": "^4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6",
+    "ava": "^0",
+    "babel-brunch": "^6",
+    "babel-preset-react": "^6",
+    "babel-preset-env": "^1",
+    "brunch": "^2",
+    "postcss-brunch": "^2",
+    "postcss-import": "^11",
+    "uglify-js-brunch": "^2"
+  }
+}
